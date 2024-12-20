@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Pet</title>
+  <style>
+    body {
+      background-image: url(Brown\ Watercolor\ Flowers\ Backgrounds\ Document\ A4.png);
+      background-size: 100% 120%;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      /* background-color: #fff; */
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    input[type="text"], input[type="email"], textarea, select {
+      width: 95%;
+      padding: 10px;
+      margin: 5px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+     /*  background-color:  #ffcc00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px; */
+
+      display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color:  #6d4726;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        border: solid 1px black;
+    }
+
+    input[type="submit"]:hover {
+      background-color:  rgb(182, 143, 99);
+        scale: 1.1;
+    }
+    #experience{
+      width: 99%;
+      padding: 10px;
+      margin: 5px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+
+    }
+    .hm{
+        height: 70px;
+        width: 70px;
+      }
+      .row{
+        display: flex;
+        width: 10%;
+      }
+  </style>
+</head>
+<body background="form.jpg">
+  
+  <div class="row" ><a href="site.html"><img class="hm" src="images-removebg-preview.png" alt=""></a></div>
+  <div class="container">
+    <h1>Adopt a Pet</h1>
+    <form action="cong.html" method="POST">
+      <label for="pet-nae">Pet Name</label>
+      <input type="text" id="pet-name" name="pet-name" required placeholder="Enter Pet's Name" >
+
+      <label for="full-name">Your Full Name</label>
+      <input type="text" id="full-name" name="full-name"required placeholder="Enter your full name" >
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email"required placeholder="Enter your email" >
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone"required placeholder="Enter your phone number" >
+
+      <label for="address">Home Address</label>
+      <textarea id="address" name="address" rows="4"required placeholder="Enter your address" ></textarea>
+
+      <label for="experience">Do you have previous experience with pets?</label>
+      <select required id="experience" name="experience" >
+        <option value="">--Select an option--</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+
+      <a href="cong.html"><input type="submit" value="Submit Adoption Form" ></a>
+    </form>
+  </div>
+
+</body>
+</html>

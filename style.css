@@ -1,0 +1,93 @@
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        text-shadow: 0px 0px 10px bisque;
+        padding: 0;
+        background-image: url(Brown\ Watercolor\ Flowers\ Backgrounds\ Document\ A4.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: #ffcc00;
+        
+      }
+  
+      .container {
+        background-color: #6d4726 0.5;
+        max-width: 800px;
+        color: black;
+        margin: 120px auto;
+        /* background-color: #fff; */
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px black;
+        transition: all;
+        transition-duration: 0.5s;
+      }
+      .container:hover {
+        scale: 1.05;
+      }
+  
+      h1 {
+        text-align: center;
+      }
+  
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      }
+  
+  
+      .profile img {
+        max-width: 300px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+  
+      .profile-info {
+        text-align: center;
+      }
+  
+      .profile-info h2 {
+        font-size: 28px;
+      }
+  
+      .profile-info p {
+        font-size: 18px;
+  
+      }
+  
+      .btn-adopt {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color:  #6d4726;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        border: solid 1px black;
+      }
+  
+      .btn-adopt:hover {
+        background-color:  rgb(182, 143, 99);
+        scale: 1.1;
+      }
+      .img{
+        border: 1px solid black;
+        box-shadow: 0px 0px 15px white;
+      }
+      .hm{
+        height: 70px;
+        width: 70px;
+      }
+      .row{
+        display: flex;
+        width: 10%;
+      }
